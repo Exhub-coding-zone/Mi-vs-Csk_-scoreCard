@@ -1,0 +1,182 @@
+body{
+    font-family: Arial;
+    background: white;
+    text-align: center;
+}
+.top-heading-container{
+    display:flex;   
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.first-main-container{
+    background-color:seagreen;
+}
+.cricbuzz-pic{
+    width: 186px;
+    height: 60px;
+}
+.text-class{
+    font-size: 20px;
+    color:white;
+    margin-top: 10px;;
+}
+.match-team-name-container{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-family: initial
+}
+.selector-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.info{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.info:hover{
+    border-bottom: 3px solid white;
+}
+.result-container{
+    text-align: left;
+    color:blue;
+    padding:10px
+
+}
+.csk-scorecard-container{
+display: flex;
+justify-content: space-between;
+background-color: seagreen;
+}
+.runs{
+    color:white;
+    margin:10px;
+}
+.batter-runs-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.d{
+    display:flex;
+    justify-content: space-between;
+    margin-right:36PX;
+
+}
+.batter{
+    margin-left:30px;
+    cursor: pointer;
+}
+.for-Rachin-Ravindra{
+    display:flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 15PX;;
+}
+.DD{
+    display: flex;
+}
+.batter-name{
+    color:blue;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.linker{
+    text-decoration: none;
+}
+.batter-name:hover{
+    border-bottom:2px solid blue;
+}
+.wicket-taker{
+    cursor: pointer;
+    font-size: 13px;;
+}
+.extras-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 15px;;
+}
+.extra-heading{
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.extra-items-container{
+    margin-right: 10px;;
+}
+.totals-runs-scored{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(70, 204, 204);
+    margin-top:15px;
+}
+.total-heading{
+  font-weight: bolder;
+  font-size: 18px;
+  padding:10px 10px 10px 2px;
+  cursor:pointer;
+  text-align: left;
+}
+.batters-not-bat{
+    color:blue;
+    text-align: left;
+    cursor:pointer;
+}
+.bowler-heading-container{
+    background-color: rgb(185, 179, 179);
+    display:flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.bowler-over-run-container{
+    display:flex;
+    margin-right: 30px;;
+}
+.over{
+    margin-left:17px;
+    padding:10px 10px 10px 2px;
+    font-weight: bolder;
+}
+.mi-bowling-container{
+    display:flex;
+    justify-content: space-between;
+    border-bottom:0.03px solid grey;
+}
+.mi-bolwing-bowing-figure{
+    display:flex; 
+    margin-right: 15px;;
+}
+.maiden{
+    margin:15px;
+}
+/* //wicket fall container */
+
+.fall-of-wickets{
+    display:flex;
+    justify-content: space-between;
+    margin-top:19;
+    background-color:grey;
+}
+
+.wicket-fall-container{
+    display:flex;
+    margin:10px 36px;
+}
+.score{
+    margin:0px 29px;
+}
+
+.first-fall-of-wicket{
+    display: flex;
+    justify-content: space-between;
+}
+.over-runs-at-wicket-falls{
+    display:flex;
+    margin:10px 36px;
+
+}
